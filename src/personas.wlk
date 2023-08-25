@@ -11,7 +11,7 @@ object olivia {
     method tomarBanioDeVapor(){}
 
 	method discutir(){
-        gradoDeConcentracion -= 0.max(gradoDeConcentracion - 1) //se asume que el grado de concentracion minimo es 0
+        gradoDeConcentracion = 0.max(gradoDeConcentracion - 1) //se asume que el grado de concentracion minimo es 0
     }
 }
 
@@ -31,7 +31,7 @@ object bruno {
     }
 
     method tomarBanioDeVapor(){
-        peso -= 0.max(peso - 500)
+        peso = 0.max(peso-500)
         tieneSed = true
     }
 
@@ -45,7 +45,7 @@ object bruno {
     }
 
     method correr(){
-        peso -=  0.max(peso - 300)
+        peso =  0.max(peso - 300)
     }
 	
     method verNoticiero(){

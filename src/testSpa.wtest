@@ -1,0 +1,7 @@
+import spa.*
+import personas.*
+
+test "Olivia se da baño de vapor" {
+	spa.atender(olivia)
+	assert.equals(9,olivia.gradoDeConcentracion())
+}
